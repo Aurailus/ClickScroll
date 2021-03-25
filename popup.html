@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<style>
+			body {
+				background-color: #1B2229;
+				color: #CBE4FF;
+				width: 250px;
+			}
+
+			h1 {
+				margin-bottom: 0;
+			}
+
+			h2 {
+				margin-top: 4px;
+				font-size: 0.9rem;
+				font-weight: 500;
+				opacity: 0.8;
+			}
+
+			label span {
+				display: inline-block;
+				opacity: 0.6;
+				font-size: 0.9rem;
+				margin-bottom: 4px;
+			}
+
+			input {
+				display: block;
+				width: 100%;
+				padding: 8px;
+				background: #28333D;
+				border-radius: 4px;
+				color: inherit;
+				border: 1px solid #385672;
+			}
+
+			input:invalid, input:placeholder-shown {
+				background: #3D1832;
+			}
+
+			h3 {
+				text-align: center;
+				font-weight: 400;
+			}
+
+			a {
+				color: lightblue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>ClickScroll</h1>
+		<h2>By Auri, 'cause she got angry.</h2>
+		<label><span>Scroll Speed (16 recommended)</span>
+			<input type="number" id="speed" min="1" max="100" pattern="^\d+$" placeholder=" ">
+		</label>
+		<h3><a href="https://github.com/Aurailus/ClickScroll" target="_blank">Source</a> &bullet; <a href="https://twitter.com/Aurailus" target="_blank">Twitter</a></h3>
+		<script src="/popup.js"></script>
+	</body>
+</html>
