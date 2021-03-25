@@ -1,6 +1,6 @@
 {
 	"name": "ClickScroll",
-	"description": "This extension allows you to autoscroll by pressing middle click.",
+	"description": "Allows you to AutoScroll by pressing middle click.",
 	"version": "0.0.1",
 	"manifest_version": 3,
 	"content_scripts": [{
